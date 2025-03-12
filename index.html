@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typing Speed Tester</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Typing Speed Tester</h1>
+        <label for="time-select">Select Time Limit:</label>
+        <select id="time-select">
+            <option value="30">30 Seconds</option>
+            <option value="60" selected>60 Seconds</option>
+            <option value="120">120 Seconds</option>
+        </select>
+
+        <div id="sample-text"></div>
+        <textarea id="typing-area" placeholder="Start typing here..."></textarea>
+
+        <div class="stats">
+            <p>⏳ Time Left: <span id="time-left">--</span> s</p>
+            <p>⚡ WPM: <span id="wpm">0</span></p>
+            <p>🎯 Accuracy: <span id="accuracy">100%</span></p>
+        </div>
+
+        <button id="reset-btn">New Sentence</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
