@@ -34,9 +34,10 @@ Features
 
 Team Members
 
-- https://github.com/your-username - Project Lead
-- https://github.com/team-member-1 - Developer
-- https://github.com/team-member-2 - Designer
+- https://github.com/ManpreetSinghGrewal - Manpreet Singh(2410991405)
+- https://github.com/ManrajSinghToor -     Manraj Singh  (2410991406)
+- https://github.com/Maithali-Agrawal -  Maithali Agrawal(2410991394)
+
 
 Contributing
 

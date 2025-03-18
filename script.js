@@ -12,20 +12,31 @@ let correctCharacters = 0;
 let timer = null;
 let timeLimit = 60; // Default time limit
 
-// Function to fetch a random sentence from API
-async function fetchRandomSentence() {
-    try {
-        const response = await fetch('https://api.quotable.io/random');
-        const data = await response.json();
+// Predefined array of longer sentences
+const sentences = [
+    "Success is not final, failure is not fatal: it is the courage to continue that counts. Persistence and dedication often outweigh talent alone in achieving true greatness.",
+    "The world is full of magical things patiently waiting for our senses to grow sharper. When we pause to appreciate the beauty around us, our creativity flourishes.",
+    "In the middle of every difficulty lies opportunity. Challenges force us to grow beyond our comfort zones, unlocking potential we never imagined we possessed.",
+    "The only limit to our realization of tomorrow is our doubts of today. Confidence and belief in oneself pave the way for extraordinary accomplishments.",
+    "Happiness is not something ready-made. It comes from your own actions, built through consistent effort and thoughtful choices each day.",
+    "A journey of a thousand miles begins with a single step. Small, consistent progress is the key to achieving long-term success in any endeavor.",
+    "Time is a created thing. To say 'I don’t have time' is to say 'I don’t want to.' Prioritizing our values allows us to focus on what truly matters.",
+    "Creativity is intelligence having fun. By allowing curiosity to guide us, we tap into endless possibilities and discover new solutions.",
+    "Don’t watch the clock; do what it does. Keep going. Consistency, even in small steps, leads to remarkable achievements over time.",
+    "Our greatest glory is not in never falling, but in rising every time we fall. Resilience shapes us into stronger and wiser individuals."
+];
 
-        sampleText = data.content;
-        sampleTextElement.textContent = sampleText;
+// Function to get a random sentence from the array
+function getRandomSentence() {
+    const randomIndex = Math.floor(Math.random() * sentences.length);
+    return sentences[randomIndex];
+}
 
-        resetTest();
-    } catch (error) {
-        console.error('Error fetching sentence:', error);
-        sampleTextElement.textContent = "Failed to load sentence. Try again.";
-    }
+// Function to set a new sample text
+function setNewSentence() {
+    sampleText = getRandomSentence();
+    sampleTextElement.textContent = sampleText;
+    resetTest();
 }
 
 // Start countdown timer
@@ -92,7 +103,7 @@ function endTest() {
 }
 
 // Reset functionality (generate a new sentence)
-resetButton.addEventListener('click', fetchRandomSentence);
+resetButton.addEventListener('click', setNewSentence);
 
 // Time limit change handler
 timeSelect.addEventListener('change', () => {
@@ -114,4 +125,4 @@ function resetTest() {
 }
 
 // Initial sentence on load
-window.onload = fetchRandomSentence;
+window.onload = setNewSentence;
