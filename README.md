@@ -34,9 +34,9 @@ Features
 
 Team Members
 
-- https://github.com/your-username - ManpreetSinghGrewal(2410991405)
-- https://github.com/team-member-1 - ManrajSinghToor    (2410991406)
-- https://github.com/team-member-2 - Maithali-Agrawal   (2410991394)
+- https://github.com/ManpreetSinghGrewal - Manpreet Singh(2410991405)
+- https://github.com/ManrajSinghToor -     Manraj Singh  (2410991406)
+- https://github.com/Maithali-Agrawal -  Maithali Agrawal(2410991394)
 
 
 Contributing
