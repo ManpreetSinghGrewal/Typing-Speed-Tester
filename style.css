@@ -4,12 +4,15 @@ body {
     height: 100vh;
     justify-content: center;
     align-items: center;
-    background-color: yellow;
+    /* background: linear-gradient(to right, #986ec6, #5783ce); */
+    background: linear-gradient(to right, #7e46b9, #5eaccd);
+    /* background: linear-gradient(to right, #7df994, #3b83d5); */
     margin: 0;
 }
 
 .container {
-    background: #fff;
+    /* background: linear-gradient(to right, #7e46b9, #5eaccd); */
+    background-color:rgb(86, 141, 181);
     padding: 30px;
     border-radius: 15px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
