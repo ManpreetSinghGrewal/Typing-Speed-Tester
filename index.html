@@ -2,32 +2,79 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Typing Speed Tester</title>
-    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Responsive Navbar</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css"> <!-- Link to external CSS file -->
+    <script src="script.js"></script>
 </head>
 <body>
+
+<nav class="navbar navbar-expand-lg bg-light">
     <div class="container">
-        <h1>Typing Speed Tester</h1>
-        <label for="time-select">Select Time Limit:</label>
-        <select id="time-select">
-            <option value="30">30 Seconds</option>
-            <option value="60" selected>60 Seconds</option>
-            <option value="120">120 Seconds</option>
-        </select>
+        <!-- Left-aligned Logo -->
+        <a class="navbar-brand" href="#">
+            <img src="https://logodix.com/logo/349883.png" alt="Logo" class="logo">
+        </a>
 
-        <div id="sample-text"></div>
-        <textarea id="typing-area" placeholder="Start typing here..."></textarea>
+        <!-- Mobile Toggle Button -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-        <div class="stats">
-            <p>⏳ Time Left: <span id="time-left">--</span> s</p>
-            <p>⚡ WPM: <span id="wpm">0</span></p>
-            <p>🎯 Accuracy: <span id="accuracy">100%</span></p>
+        <!-- Navbar Links (Centered) & Contact Button (Right) -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mx-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="aboutus.html">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">References</a>
+                </li>
+            </ul>
+            <a href="contact.html" class="btn btn-primary contact-btn">Contact Us</a>
+        </div>
+    </div>
+</nav>
+<!-- Hero Section (Carousel) -->
         </div>
 
-        <button id="reset-btn">New Sentence</button>
-    </div>
+        <!-- Slides -->
+        <div class="carousel-inner">
+            <div class="container1">
+                <h1>Typing Speed Tester</h1>
+                <label for="time-select">Select Time Limit:</label>
+                <select id="time-select">
+                    <option value="30">30 Seconds</option>
+                    <option value="60" selected>60 Seconds</option>
+                    <option value="120">120 Seconds</option>
+                </select>
+        
+                <div id="sample-text"></div>
+                <textarea id="typing-area" placeholder="Start typing here..."></textarea>
+        
+                <div class="stats">
+                    <p>⏳ Time Left: <span id="time-left">--</span> s</p>
+                    <p>⚡ WPM: <span id="wpm">0</span></p>
+                    <p>🎯 Accuracy: <span id="accuracy">100%</span></p>
+                </div>
+        
+                <button id="reset-btn">New Sentence</button>
+            </div>
+            </div>
+            <div class="carousel-item">
 
-    <script src="script.js"></script>
+        <!-- Downward Arrow -->
+        <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon down-arrow"></span>
+        </button>
+    </div>
+</section>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
