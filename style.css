@@ -1,28 +1,34 @@
 /* Custom Styles for Navbar */
 .navbar {
-    background: linear-gradient(to right, #5db272, #c1756e); /* Mint green to peach gradient */
-    /* Light background */
+    background: linear-gradient(to right, #5db272, #c1756e); 
 }
+
 body {
-    /* background: linear-gradient(to right, #abe5ca, #ddb893); Soft mint to light peach gradient */
     background: linear-gradient(to right, #64b171, #b69964);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 } 
+
+/* Main Container */
 .container1 {
-    background: linear-gradient(to right, #abe5ca, #ddb893); /* Soft peachy-beige background */
+    background: linear-gradient(to right, #abe5ca, #ddb893); 
     padding: 30px;
     border-radius: 15px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-    width: 100%;
+    width: 90%;
     max-width: 600px;
     text-align: center;
-    margin-top: 150px;
-    margin-left: 460px;
-}
-h1 {
-    color: #4A6D44; /* Muted olive green for contrast */
-    margin-bottom: 20px;
+    margin: 50px auto;
 }
 
+h1 {
+    color: #4A6D44;
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+
+/* Typing Area */
 #sample-text {
     background: #F9F9F9;
     padding: 15px;
@@ -48,22 +54,31 @@ h1 {
     font-weight: bold;
 }
 
+/* Reset Button */
 #reset-btn {
-    background: #F6A7A0; /* Peach color for the button */
+    background: #F6A7A0;
     color: #fff;
     border: none;
     padding: 10px 20px;
     border-radius: 8px;
     cursor: pointer;
     margin-top: 10px;
+    transition: background 0.3s ease;
+    width: 100%;
 }
 
 #reset-btn:hover {
-    background: #F18C7D; /* Slightly darker peach on hover */
+    background: #F18C7D;
 }
 
-.correct { color: #6EE2A5; } /* Mint green for correct answers */
-.wrong { color: #E74C3C; text-decoration: underline; } /* Red for wrong answers */
+/* Correct and Wrong Text Indicators */
+.correct { 
+    color: #6EE2A5; 
+} 
+.wrong { 
+    color: #E74C3C; 
+    text-decoration: underline; 
+}
 
 /* Logo Styling */
 .logo {
@@ -71,20 +86,26 @@ h1 {
     height: 50px;
 }
 
-/* Center Navigation Links */
+/* Centered Navigation Links */
 .navbar-nav {
     text-align: center;
 }
 
-/* Contact Button (Align to Right) */
+/* Contact Button */
 .contact-btn {
     margin-left: 15px;
 }
 
+/* Hero Section */
 .hero {
     position: relative;
     height: 100vh;
-    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    padding: 20px;
 }
 
 /* Individual Slide Backgrounds */
@@ -95,12 +116,10 @@ h1 {
     align-items: center;
     justify-content: center;
     text-align: center;
-    color: white;
 }
 
-/* Background Colors/Gradients */
 .slide1 { 
-    background: linear-gradient(to right, #C9E5D8, #F1E1D1); /* Soft mint to light peach gradient */
+    background: linear-gradient(to right, #C9E5D8, #F1E1D1); 
 }
 
 /* Dark Overlay */
@@ -122,7 +141,7 @@ h1 {
 }
 
 .hero-text h1 {
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-weight: bold;
 }
 
@@ -135,7 +154,7 @@ h1 {
     margin-top: 15px;
 }
 
-/* Downward Arrow for Slide Change */
+/* Downward Arrow */
 .down-arrow {
     position: absolute;
     bottom: 20px;
@@ -143,6 +162,36 @@ h1 {
     transform: translateX(-50%);
     width: 50px;
     height: 50px;
-    background-color: #fff; /* White arrow for contrast */
+    background-color: #fff;
     border-radius: 50%;
+}
+
+/* Mobile Optimization */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    .container1 {
+        width: 95%; 
+        padding: 20px;
+        margin: 30px auto;
+    }
+
+    .stats p {
+        font-size: 0.9rem;
+    }
+
+    #typing-area {
+        height: 80px;
+    }
+
+    #reset-btn {
+        width: 100%;
+    }
+
+    .navbar-brand img {
+        width: 40px; 
+        height: 40px;
+    }
 }
