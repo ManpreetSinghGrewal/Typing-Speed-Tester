@@ -37,6 +37,8 @@ Team Members
 - https://github.com/ManpreetSinghGrewal - Manpreet Singh(2410991405)
 - https://github.com/ManrajSinghToor -     Manraj Singh  (2410991406)
 - https://github.com/Maithali-Agrawal -  Maithali Agrawal(2410991394)
+- https://github.com/nimishsharma2421 -   Nimish Sharma  (2410991450)
+ 
 
 
 Contributing
