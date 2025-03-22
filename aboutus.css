@@ -3,6 +3,8 @@
     padding: 60px 0;
     background: linear-gradient(to bottom, #0f0c29, #302b63, #24243e);
  /* Gradient Background */
+    margin-left: -15px;
+    margin-top: -15px;
     color: white;
 }
 
@@ -20,15 +22,17 @@
 
 .nav-tabs .nav-link.active {
     background-color: rgba(255, 255, 255, 0.2);
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 /* Tab Content */
 .tab-content {
     background: rgba(255, 255, 255, 0.2);
-    padding: 20px;
+    padding: 10px;
     border-radius: 10px;
-    margin-bottom: 160px;
+    margin-bottom: 120px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 /* Right Side Home Button */
