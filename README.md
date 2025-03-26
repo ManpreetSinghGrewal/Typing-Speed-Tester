@@ -1,4 +1,6 @@
-Typing Speed Tester <break>
+                                          Typing Speed Tester
+<br>
+
 A web-based typing speed test application designed to measure typing accuracy and speed while helping users improve their typing efficiency.
 
 Purpose
