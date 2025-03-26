@@ -1,51 +1,70 @@
-               Typing Speed Tester
-
-A web-based typing speed test application designed to measure typing accuracy and speed.
+Typing Speed Tester
+A web-based typing speed test application designed to measure typing accuracy and speed while helping users improve their typing efficiency.
 
 Purpose
-
-The purpose of this project is to create a user-friendly typing speed test application that provides accurate results and helps users improve their typing skills.
+The goal of this project is to create an interactive and user-friendly typing speed test application that provides accurate results and helps users enhance their typing skills.
 
 Setup Instructions
+Prerequisites
+Before setting up the project, ensure you have:
+✅ A web browser (Chrome, Firefox, Edge, Safari)
+✅ A code editor or IDE (e.g., VS Code)
 
-*Prerequisites*
-- Node.js installed on your machine
-- A code editor or IDE of your choice
+Installation & Running the Project
+This project does not require a database or backend. Simply follow these steps to run it:
 
-*Installation*
-1. Clone the repository using `git clone https://github.com/your-username/typing-speed-tester.git`
-2. Navigate to the project directory using `cd typing-speed-tester`
-3. Install dependencies using `npm install`
-4. Start the application using `npm start`
+1️⃣ Download the project files:
 
-*Usage*
-1. Open the application in your web browser at `http://localhost:3000`
-2. Start typing to begin the typing speed test
-3. Type the given text as accurately and quickly as possible
-4. View your results, including words per minute (wpm), accuracy, and elapsed time
+Clone the repository using Git:
+bash
+Copy
+Edit
+git clone https://github.com/your-username/typing-speed-tester.git
+Or download the ZIP file from GitHub and extract it.
+
+2️⃣ Open the project folder and locate the index.html file.
+
+3️⃣ Run the project:
+
+Open index.html in any web browser.
+
+Alternatively, use Live Server in VS Code for a better experience.
+
+Usage
+1️⃣ Start typing when the test begins.
+2️⃣ Type the displayed text accurately and quickly.
+3️⃣ View your results, including:
+
+Words Per Minute (WPM)
+
+Accuracy Percentage
+
+Elapsed Time
 
 Features
-
-- User-friendly interface
-- Accurate results
-- Time limit options: 15, 30, or 60 seconds
-- Real-time results
-- New sentences everytime.
+✅ User-friendly interface with an intuitive design
+✅ Accurate results updated in real time
+✅ Time limit options: 15, 30, or 60 seconds
+✅ Random sentence generation for a unique experience every time
+✅ Live tracking of WPM & accuracy
+✅ No backend or database required – lightweight and easy to use
 
 Team Members
-
-- https://github.com/ManpreetSinghGrewal - Manpreet Singh(2410991405)
-- https://github.com/ManrajSinghToor -     Manraj Singh  (2410991406)
-- https://github.com/Maithali-Agrawal -  Maithali Agrawal(2410991394)
-- https://github.com/nimishsharma2421 -   Nimish Sharma  (2410991450)
-- https://github.com/anshulverma1385 -   Anshul Verma (2410991385)
- 
-
+Name	           GitHub Profile	      University ID
+Manpreet Singh	ManpreetSinghGrewal	  2410991405
+Manraj Singh	 ManrajSinghToor        2410991406
+Maithali Agrawal	Maithali-Agrawal   	2410991394
+Nimish Sharma	nimishsharma2421	      2410991450
+Anshul Verma	anshulverma1385	        2410991385
 
 Contributing
-
-Contributions are welcome! If you'd like to contribute to this project, please fork the repository and submit a pull request with your changes.
+Contributions are welcome! 🚀 If you'd like to contribute:
+1️⃣ Fork the repository.
+2️⃣ Make your changes and commit them.
+3️⃣ Submit a pull request (PR) with your improvements.
 
 License
-
 This project is licensed under the MIT License. See the LICENSE file for details.
+LINK TO SITE IS UNDER---
+https://manpreetsinghgrewal.github.io/Typing-Speed-Tester/
+
