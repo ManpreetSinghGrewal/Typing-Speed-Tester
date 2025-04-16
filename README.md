@@ -52,12 +52,12 @@ Features
 ✅ No backend or database required – lightweight and easy to use
 
 Team Members
-Name	           GitHub Profile	      University ID
-Manpreet Singh	ManpreetSinghGrewal	  2410991405
-Manraj Singh	 ManrajSinghToor        2410991406
-Maithali Agrawal	Maithali-Agrawal   	2410991394
-Nimish Sharma	nimishsharma2421	      2410991450
-Anshul Verma	anshulverma1385	        2410991385
+Name	             GitHub Profile	              University ID
+Manpreet Singh	    ManpreetSinghGrewal	           2410991405
+Manraj Singh	     ManrajSinghToor               2410991406
+Maithali Agrawal     Maithali-Agrawal   	       2410991394
+Nimish Sharma	    nimishsharma2421	           2410991450
+Anshul Verma	     anshulverma1385	           2410991385
 
 Contributing
 Contributions are welcome! 🚀 If you'd like to contribute:
